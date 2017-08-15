@@ -9,6 +9,8 @@ import { VideoPage } from '../pages/video/video';
 import { TabsPage } from '../pages/tabs/tabs';
 import { IntroPage } from '../pages/intro/intro';
 import { LoginPage } from '../pages/login/login';
+import { VimeoVideo } from '../pages/videos/vimeo';
+import { YoutubeVideo } from '../pages/videos/youtube';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +23,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     VideoPage,
     TabsPage,
     IntroPage,
-    LoginPage
+    LoginPage,
+    VimeoVideo,
+    YoutubeVideo
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     VideoPage,
     TabsPage,
     IntroPage,
-    LoginPage
+    LoginPage,
+    VimeoVideo,
+    YoutubeVideo
   ],
   providers: [
     StatusBar,
