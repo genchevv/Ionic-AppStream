@@ -12,6 +12,7 @@ import { IntroPage } from '../pages/intro/intro';
 import { LoginPage } from '../pages/login/login';
 import { VimeoVideo } from '../pages/videos/vimeo';
 import { YoutubeVideo } from '../pages/videos/youtube';
+import { ProfilePage } from '../pages/profile/profile';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -27,7 +28,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     VimeoVideo,
     YoutubeVideo,
-    ParallaxHeader
+    ParallaxHeader,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     IntroPage,
     LoginPage,
     VimeoVideo,
-    YoutubeVideo
+    YoutubeVideo,
+    ProfilePage
   ],
   providers: [
     StatusBar,
